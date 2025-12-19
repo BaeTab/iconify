@@ -11,4 +11,9 @@ export default defineConfig({
       dynamicRoutes: ['/']
     })
   ],
+  resolve: {
+    alias: {
+      "@": "/src",
+    },
+  },
 })
